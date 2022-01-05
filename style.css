@@ -317,6 +317,46 @@ header h1 {
   }
 }
 
+#transform-link,
+#service-link {
+  position: relative; 
+  z-index: 100;
+}
+
+#service-link::after {
+  content: " ";
+  position: absolute;
+  width: 12rem;
+  height: 1rem;
+  background-color:#FE7766;
+  border-radius: 50px;
+  left: -.5rem;
+  top: 1rem;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+#transform-link::after {
+  content: " ";
+  position: absolute;
+  width: 12rem;
+  height: 1rem;
+  background-color: #FAD400;
+  border-radius: 50px;
+  left: -.5rem;
+  top: 1rem;
+  opacity: 0.3;
+  z-index: -1;
+  transition: all 200ms ease-in-out;
+}
+
+#service-link:hover::after,
+#transform-link:hover::after {
+  opacity: 0.8;
+}
+
+
+
 .testimonials {
   background-color: #f2f2f2;
   padding: 12% 10%;
