@@ -26,7 +26,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- JS
 
 ## Acknowledgments
 
-With this website it was easier to go without mobile-first approach for some reason. Maybe it'll be the same for you.
+With this website it was easier to go without mobile-first approach for some reason. The general layout and the way things work is great. The project can be done both with flexbox or grid. A tiny bit of JS was pretty easy to do. 
